@@ -21,7 +21,7 @@ My level was set in **The Leach**, the main gym at FSU. I worked with AI to gene
 
 Using the base images, I created the tilesets for the game:
 
-- `gym.png` → `leach.tsx` (main tileset for the background)
+- `gym.png` → `gym.tsx` (main tileset for the background)
 - `tileset.png` → `tileset.tsx` (equipment tiles used for gameplay elements)
 
 ### Creating Layers in Tiled
