@@ -1,24 +1,63 @@
-# FSUDash-LeachLevel-Design
-In my CEN4020L capstone course, our group decided to develop a game using the PyArcade tutorial. We decided to use Tiled for designing each level. Leveraging AI for designing game levels. 
+# FSUDash – Leach Level Design
 
-## Creating the tilemap using AI
-My level was located at The Leach, the main gym at FSU. I worked with AI to create a tiled-map based on images of the Leach I feed it. I also instructed it to create the image as a 2d background. The is when I got "gym.png". This was my base, using tiles from this image to create the leach level. I also created "tileset.png", which was a tilemap of gym equipment.
+In my **CEN4020L Capstone** course, our group developed a game using the **PyArcade** tutorial. We chose **Tiled** for level design and leveraged **AI** to assist with generating assets and layouts.
 
-## Designing my Level
-	<ins> ### Creating Tilesets </ins>
-Once I got my base image I wanted to use tiles from, then I create the actual tile map I would implement in PyAracde. I used "gym.png" to create "leach.tsx", this is the map I would take tiles from to create my level. Additionally, from "tileset.png" I created tileset.tsx. These files were the tilesets I would use.
+---
 
-### Creating Layers for the Level
-There were Tile Layers and Object Layers that I created. The tile layers were layers that would be considered the background in the game. So in that case: Background, platform, coins. And the object layers were: Player and enemy. 
+## 🧠 Creating the Tilemap Using AI
 
-### AI created Images
-Player: player.jpg
+My level was set in **The Leach**, the main gym at FSU. I worked with AI to generate a tiled map based on photos of the gym.
 
-### Open Source Images
-Enemy: scarytiger.png
+- I provided images of The Leach to the AI.
+- The AI generated a 2D background image: `gym.png`.
+- This image became the base I used to extract tiles for my level.
+- I also created `tileset.png`, a tilemap featuring gym equipment.
 
-### Power Ups
-I ended up using the gym equipment tiles to use the weight as the power up or "coins".
+---
 
-# Final Tilemap
-The final tilemap we used for the game was "level3final.tmx".
+## 🎮 Designing My Level
+
+### 🧱 Creating Tilesets
+
+Using the base images, I created the tilesets for the game:
+
+- `gym.png` → `leach.tsx` (main tileset for the background)
+- `tileset.png` → `tileset.tsx` (equipment tiles used for gameplay elements)
+
+### 📚 Creating Layers in Tiled
+
+I used both **Tile Layers** and **Object Layers**:
+
+- **Tile Layers**:  
+  - `Background`  
+  - `Platform`  
+  - `Coins` (represented using gym equipment tiles)
+
+- **Object Layers**:  
+  - `Player`  
+  - `Enemy`
+
+---
+
+## 🧑‍🎨 Character Assets
+
+- **Player**: AI-generated image `player.jpg`
+- **Enemy**: Open-source image `scarytiger.png`
+
+---
+
+## 💪 Power-Ups
+
+- Gym equipment tiles (like weights) were repurposed as **power-ups** (similar to coins).
+
+---
+
+## 🗺️ Final Tilemap
+
+The completed level design was exported as:
+
+- `level3final.tmx`
+
+This tilemap was integrated into our PyArcade project as **Level 3**.
+
+---
