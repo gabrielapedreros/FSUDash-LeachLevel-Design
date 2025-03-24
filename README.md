@@ -11,7 +11,7 @@ Once I got my base image I wanted to use tiles from, then I create the actual ti
 ### Creating Layers for the Level
 There were Tile Layers and Object Layers that I created. The tile layers were layers that would be considered the background in the game. So in that case: Background, platform, coins. And the object layers were: Player and enemy. 
 
-### AI created Images
+### > AI created Images
 Player: player.jpg
 
 ### Open Source Images
