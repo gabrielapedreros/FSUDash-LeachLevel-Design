@@ -58,6 +58,6 @@ The completed level design was exported as:
 
 - `level3final.tmx`
 
-This tilemap was integrated into our PyArcade project as **Level 3**.
+This tilemap was integrated into our PyArcade project as a json file and we continued from there. 
 
 ---
