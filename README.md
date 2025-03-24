@@ -4,27 +4,27 @@ In my **CEN4020L Capstone** course, our group developed a game using the **PyArc
 
 ---
 
-## 🧠 Creating the Tilemap Using AI
+## Creating the Tilemap Using AI
 
 My level was set in **The Leach**, the main gym at FSU. I worked with AI to generate a tiled map based on photos of the gym.
 
-- I provided images of The Leach to the AI.
+- I provided images of The Leach and instructions to the AI.
 - The AI generated a 2D background image: `gym.png`.
 - This image became the base I used to extract tiles for my level.
 - I also created `tileset.png`, a tilemap featuring gym equipment.
 
 ---
 
-## 🎮 Designing My Level
+## Designing My Level
 
-### 🧱 Creating Tilesets
+### Creating Tilesets
 
 Using the base images, I created the tilesets for the game:
 
 - `gym.png` → `leach.tsx` (main tileset for the background)
 - `tileset.png` → `tileset.tsx` (equipment tiles used for gameplay elements)
 
-### 📚 Creating Layers in Tiled
+### Creating Layers in Tiled
 
 I used both **Tile Layers** and **Object Layers**:
 
@@ -39,20 +39,20 @@ I used both **Tile Layers** and **Object Layers**:
 
 ---
 
-## 🧑‍🎨 Character Assets
+## Character Assets
 
 - **Player**: AI-generated image `player.jpg`
 - **Enemy**: Open-source image `scarytiger.png`
 
 ---
 
-## 💪 Power-Ups
+## Power-Ups
 
 - Gym equipment tiles (like weights) were repurposed as **power-ups** (similar to coins).
 
 ---
 
-## 🗺️ Final Tilemap
+## Final Tilemap
 
 The completed level design was exported as:
 
